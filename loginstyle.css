@@ -1,0 +1,53 @@
+
+body{
+    background-color: #333;
+}
+#main_container-1{
+    height: 110vh;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 1em;
+  }
+  .pop1{
+  width: 9vw;
+  margin-top: 7vh;
+  margin-left: 10vw;
+  }
+  .pop2{
+  width: 60%;
+  margin-left: 9vw;
+  margin-top: 18vh;
+  opacity: 20%;
+  }
+  .pop3{
+  width: 75%;
+  margin-top: 5vh;
+  margin-left: 3vw;
+  }
+  .pop4{
+  width: 50%;
+  margin-top: 45vh;
+  }
+  .loghead{
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  top: 25%;
+  left: 42%;
+  }
+  .table{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+
+  }
+  .text{
+  font-size: 1.3em;
+  color: white;
+  }
